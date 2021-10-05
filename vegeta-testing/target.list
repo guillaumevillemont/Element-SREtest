@@ -1,0 +1,8 @@
+GET http://localhost:5000/api/v1/lookup/e1ea94a8d3
+POST http://localhost:5000/api/v1/shorten
+Content-Type: application/json
+@./url1.json
+GET http://localhost:5000/api/v1/lookup/2b039fbaa1
+POST http://localhost:5000/api/v1/shorten
+Content-Type: application/json
+@./url2.json
