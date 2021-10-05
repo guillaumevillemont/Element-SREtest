@@ -8,10 +8,9 @@ I try to keep dependencies as it's minimum.
 
 Every new POST urls are stored in memory.
 
-**Non-existing route will return 404**
-**Non-existing identifier will return 404**
-
-**I do not validate url**, so it's basically a string shortener. It's up to the user to make sure provided url is a working url.
+- **Non-existing route will return 404**
+- **Non-existing identifier will return 404**
+- **I do not validate url**, so it's basically a string shortener. It's up to the user to make sure provided url is a working url.
 
 I choose to store everything in a dictonnary key:value.
 Keys are blake2 hashes of urls. It's indempotent, so **a url will always return the same shorten id**.
@@ -49,9 +48,9 @@ Error Set:
 
 ## Requirements
 
-Python3
-pip
-virtualenv
+- Python3
+- pip
+- virtualenv
 
 ## Setup
 
